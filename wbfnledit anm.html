@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Smartphone Whiteboard Video Animation Course | Eminent Media</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+  font-family: Arial, sans-serif;
+  background:#f4f6f9;
+  margin:0;
+  padding:0;
+  line-height:1.6;
+}
+.container{
+  max-width:1000px;
+  margin:auto;
+  padding:30px 20px 60px;
+}
+h1,h2,h3{
+  color:#0b3c5d;
+}
+.subtitle{
+  text-align:center;
+  color:#555;
+  margin-bottom:40px;
+}
+.highlight{
+  background:#fff;
+  padding:25px;
+  border-left:5px solid #0b3c5d;
+  box-shadow:0 2px 8px rgba(0,0,0,0.05);
+  margin-bottom:40px;
+}
+.course-section{
+  background:#fff;
+  margin-bottom:20px;
+  border-radius:6px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.06);
+}
+details{
+  padding:20px;
+}
+summary{
+  font-size:17px;
+  font-weight:bold;
+  cursor:pointer;
+  color:#0b3c5d;
+}
+.lesson-content{
+  margin-top:15px;
+  color:#444;
+}
+.access-course{
+  text-align:center;
+  margin:40px 0;
+  position:relative;
+}
+.access-course button{
+  display:inline-block;
+  padding:15px 35px;
+  background:#f9a826;
+  color:#000;
+  font-weight:bold;
+  text-decoration:none;
+  border-radius:30px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  transition:0.3s;
+  border:none;
+  cursor:pointer;
+  font-size:16px;
+  position:relative;
+  overflow:hidden;
+}
+.access-course button:hover{
+  background:#ffb84d;
+}
+
+/* Loader overlay */
+.loader-overlay {
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: rgba(255,255,255,0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  z-index: 9999;
+  display: none;
+}
+.loader-spinner {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #f9a826;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 15px;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.loader-text {
+  color:#0b3c5d;
+  font-size:18px;
+  font-weight:bold;
+}
+
+footer{
+  text-align:center;
+  margin-top:50px;
+  color:#555;
+}
+footer strong{
+  color:#0b3c5d;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Smartphone Whiteboard Video Animation Course</h1>
+<p class="subtitle">Learn a Skill That Pays — Anywhere, Anytime</p>
+
+<!-- Marketing & Launch Offer -->
+<div class="highlight" style="border-left-color:#f9a826; text-align:center;">
+  <h2 style="color:#f9a826;">🚀 Special Launch Offer!</h2>
+  <p style="font-size:18px; font-weight:bold; color:#0b3c5d;">
+    Original Price: <del>₦20,000</del> <br>
+    Launch Offer: ₦5,000 <span style="color:#f44336;">(Limited Slots!)</span>
+  </p>
+</div>
+
+<div class="highlight">
+<p><strong>In this era, having a job is good… but having a skill is POWER!</strong></p>
+<p>Your job may change, but your skills stay with you. Smartphone whiteboard animation is a creative,
+high-income digital skill you can use globally.</p>
+
+<h3>Why Whiteboard Animation Matters</h3>
+<ul>
+<li>Captures attention instantly</li>
+<li>Simplifies complex ideas</li>
+<li>Boosts engagement and retention</li>
+<li>Used in marketing, education, and business</li>
+<li>Turns skills into income</li>
+</ul>
+</div>
+
+<h2>What You Will Learn</h2>
+
+<div class="course-section">
+  <details>
+    <summary>Lesson 1: Introduction to Whiteboard Animation</summary>
+    <div class="lesson-content">
+      Discover the fundamentals of whiteboard animation and why it's such a powerful visual storytelling tool.
+    </div>
+  </details>
+</div>
+
+<div class="course-section">
+  <details>
+    <summary>Lesson 2: Launching the Animation App</summary>
+    <div class="lesson-content">
+      Get started with the essential whiteboard animation software and understand basic setup.
+    </div>
+  </details>
+</div>
+
+<div class="course-section">
+  <details>
+    <summary>Lesson 3: Naming & Organizing Projects</summary>
+    <div class="lesson-content">
+      Learn professional project management techniques for keeping your animation work organized.
+    </div>
+  </details>
+</div>
+
+<div class="course-section">
+  <details>
+    <summary>Lesson 4: Understanding the Interface</summary>
+    <div class="lesson-content">
+      Master the animation software interface and all essential tools for creating whiteboard videos.
+    </div>
+  </details>
+</div>
+
+<div class="course-section">
+  <details>
+    <summary>Lesson 5: Creating a Voice Over</summary>
+    <div class="lesson-content">
+      Record and integrate professional voiceovers that perfectly sync with your whiteboard animations.
+    </div>
+  </details>
+</div>
+
+<div class="course-section">
+  <details>
+    <summary>Lesson 6: Creating a Sample Video</summary>
+    <div class="lesson-content">
+      Build your first complete whiteboard animation project from start to finish.
+    </div>
+  </details>
+</div>
+
+<!-- ACCESS COURSE BUTTON -->
+<div class="access-course">
+  <button id="accessCourseBtn">
+    Click here to access course
+  </button>
+</div>
+
+<!-- Loader -->
+<div class="loader-overlay" id="loaderOverlay">
+  <div class="loader-spinner"></div>
+  <div class="loader-text">Granting Access...</div>
+</div>
+
+<footer>
+<p>
+Powered by <strong>Eminent Media</strong><br>
+Building productive digital skills, empowering careers, and sharing sustainable opportunities.
+</p>
+</footer>
+
+</div>
+
+<script>
+const button = document.getElementById('accessCourseBtn');
+const loader = document.getElementById('loaderOverlay');
+const courseLink = "https://selar.com/f753970tj4";
+
+button.addEventListener('click', () => {
+  loader.style.display = 'flex';
+  setTimeout(() => {
+    window.location.href = courseLink;
+  }, 2000);
+});
+</script>
+
+</body>
+</html>
